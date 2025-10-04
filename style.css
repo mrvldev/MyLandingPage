@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-family: futura;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.containerColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.header {
+    display: flex;
+    background-color: rgb(64, 154, 154);
+    
+    }
+
+
+.HeaderLogo {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    justify-content: flex-start;
+
+}
+
+.headline {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem;
+    font-weight: 900;
+}
+
+.headline2 {
+    font-size: 1.2rem;
+
+}
+
+
+
+.HeaderLink {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: small;
+}
+
+.content {
+    display: flex;
+}
+
+.footer {
+    background-color: rgb(64, 158, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .6rem;
+}
+
+.FooterLogo {
+    width: 10px;
+    border-radius: 50%;
+}
