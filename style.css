@@ -19,7 +19,8 @@ body {
     display: flex;
     flex: 1;
     flex-direction: column;
-    margin: 1.5rem;
+    align-self: center;
+    margin: 1.2rem;
 }
 .headerline {
     display:flex;
@@ -29,21 +30,23 @@ body {
 }
 .headline1 {
     display: flex;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 900;
     align-self: flex-start;
     flex: 1;
 }
 .headline2 {
+    font-family: cursive;
     display: flex;
+    font-size: 1.3rem;
     align-self: flex-start;
-    justify-content: flex-end;
+    margin-left: .5rem;
 }
 .headerlinks {
     display: flex;
     align-self: flex-end;
     text-decoration: none;
-    font-size: .5rem;
+    font-size: .8rem;
     color: white;
     flex-wrap: wrap;
     margin-right: .8rem;
@@ -106,7 +109,7 @@ body {
     border-radius: 15%;
     display: flex;
     align-self: center;
-    margin: -0.7rem;
+    margin: -.7rem;
 }
 .footerlogo {
     height: 1rem;
