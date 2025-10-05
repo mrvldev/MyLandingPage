@@ -13,30 +13,42 @@ body {
 .header {
     display: flex;
     border: 2px solid #ffffff;
-border-radius: 25px;
+    border-radius: 25px;
 }
-
+.headli {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 2%;
+}
 .headerline {
     display:flex;
     flex-direction: column;
-    justify-content: center;
-
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .headline1 {
+    display: flex;
     font-size: 23px;
     font-weight: 900;
+    align-items: flex-start;
+    flex: 1;
 }
 .headline2 {
-
+    display: flex;
+    align-items: center;
 }
 .headerlinks {
+    display: flex;
     flex-direction: row;
-    align-items: flex-end;
     align-self: flex-end;
     justify-content: flex-end;
+    align-items: flex-end;
     text-decoration: none;
+    font-size: .7rem;
     color: white;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    margin-right: 2%;
 }
 .content{
     display: flex;
@@ -46,19 +58,35 @@ border-radius: 25px;
     align-items: center;
     justify-content: center;
 }
+.card {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 200px;
+    margin: 1%;
+}
+.cardimg{
+    border-radius: 10%;
+    width: 200px;
+}
+.cardtxt {
+    display: flex;
+    margin-top: 5%;
+}
 .footer {
     display: flex;
-    align-self: flex-end;
+    align-self: center;
     align-items: center;
     flex: 1;
     flex-grow: 1;
 } 
 .headerlogo {
-    width: 80px;
-    border-radius: 50%;
+    height: 5rem;
+    border-radius: 15%;
 }
 .footerlogo {
-    width: 20px;
+    height: 1rem;
     border-radius: 50%;
 
 }
