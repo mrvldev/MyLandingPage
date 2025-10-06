@@ -12,6 +12,7 @@ body {
 }
 a {
     color: white;
+    text-decoration: none;
 }
 .header {
     display: flex;
@@ -63,6 +64,11 @@ a {
     background-color: rgb(7, 134, 83);
     margin-left: 4%;
 }
+
+.twlogobutton {
+    display: flex;
+    width: 5rem;
+}
 .github {
     display: flex;
     margin: 3%;
@@ -74,6 +80,20 @@ a {
     border: .2rem solid white;
     background-color: rgb(15, 62, 109);
     border-radius: 5%;
+
+}
+.twitch {
+    display: flex;
+    margin: 4%;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 3rem;
+    min-width: 25rem;
+    border: .2rem solid white;
+    background-color: rgb(7, 56, 155);
+    border-radius: 5%;
+    font-size: 1.3rem;
 
 }
 .content{
@@ -95,15 +115,17 @@ a {
     flex-wrap: wrap;
     align-items: center;
     width: 200px;
-    margin-right: 1rem;
-}
+    margin: 1rem;
+    border-radius: 8%;
+    border: .1rem solid white
+}   
 .cardimg{
-    border-radius: 10%;
+    border-radius: 11%;
     width: 200px;
 }
 .cardtxt {
     display: flex;
-    margin-top: 5%;
+    margin:5%;
 }
 .footer {
     display: flex;
