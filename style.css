@@ -10,6 +10,9 @@ body {
     min-height: 100vh;
     margin: 0;
 }
+a {
+    color: white;
+}
 .header {
     display: flex;
     border: .3rem solid #ffffff;
@@ -77,9 +80,14 @@ body {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
-    margin-top: 2%;
+    margin: 3%;
     align-items: center;
     justify-content: center;
+    align-self: center;
+    max-width: 100rem;
+}
+.page {
+    max-width: 45rem;
 }
 .card {
     display:flex;
@@ -104,15 +112,20 @@ body {
     flex: 1;
     flex-grow: 1;
 } 
+.mainpimg {
+    width: 40rem;
+    border-radius: 15%;
+    margin-bottom: 2rem;
+}
 .headerlogo {
     height: 12rem;
-    border-radius: 15%;
+    border-radius: 1%;
     display: flex;
     align-self: center;
     margin: -.7rem;
 }
 .footerlogo {
-    height: 1rem;
+    height: 1.2rem;
     border-radius: 50%;
 
 }
